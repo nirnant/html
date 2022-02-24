@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, ini=1.0">
+    <title>Document</title><style>
+      div{
+        size: 0vmax;
+      }
+    </style>
+</head>
+<body><marquee>welcome to Jagat jeet inter college</marquee>
+  <h1><center>Jagat Jeet Inter College</center></h1>
+  <div style="background-color: red;"><a href="home.HTML"><font size="4">home</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="course.HTML"><font  size="4">corurse</font></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="faculty.HTML"><font size="4">faculty</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="help.HTML"><font size="4">help</font></a></div>
+  <p>jagat jeet inter college ikauna shrawasti is a fomous college in the devipatan mandil .It is largest college in the shrawasti.</p>
+
+  <h1>Student</h1><form action="/action_page.php" class="application-form">
+    <div>
+      <label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="text" id="fname" name="fname" value=" "><br><br>
+    </div>
+    <div><label for ="fname">middle name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id="fname" name="fname" value=""><br><br>
+      </div>
+    
+    <div>
+      <label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="text" id="lname" name="lname" value=" "><br><br>
+    </div>
+
+    <div>
+      <label for="address">address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id="address" name="address" value=" "><br><br>
+    </div>
+
+    <div>
+      <label for="birthday">Birthday:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="date" id="birthday" name="birthday"><br><br>
+    </div>
+
+    <div>
+      <label for="email">Enter your email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="email" id="email" name="email"><br><br>
+    </div>
+
+
+    <div>
+      <label for="gender">gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <select id="gender" name="gender"><br><br>
+        <option value="female">female</option>
+        <option value="other">other</option>
+        <option value="male">male</option>
+      
+    </div>
+
+
+    <div>
+      <label for="phone num">phone number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        required>
+    </div>
+
+    <div>
+      <label for="files">Select files:</label>
+      <input type="file" id="files" name="files" multiple>
+    </div>
+
+    <div >
+      <button class="submit-button" type="submit"onClick="submit()">Submit</button>
+    </div>
+  </form>
+
+    
+</body>
+<script>
+  function submit(){
+    alert("form submitted")
+  }
+</script>
+</html>
