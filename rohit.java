@@ -7,7 +7,7 @@ class Test {
       y=b;
       z=c;  
     }
-    void dispaly(){
+    void display(){
         System.out.println("x:"+x);
         System.out.println("y:"+y);
         System.out.println("z:"+z);
@@ -18,19 +18,19 @@ class Test {
         System.out.println("k="+k);
     }
 }
-class Rohit{
+public class Rohit{
    public static void main(String []args]){
    Test m=new Test();
    Text l=new Test();
    Test g=new Test();
-   m.setData(2,4,6,);
+   m.setData(2,4,6);
    l.setData(44,6,77);
    g.setData(33,5,66);
    m.display();
    l.display();
    g.display();
    Test.show();
-   }
-   static{
-       System.out.println('hello!');
+   
+     
+    
    }}
